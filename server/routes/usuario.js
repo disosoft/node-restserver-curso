@@ -3,7 +3,7 @@ const app = express();
 const bcrypt = require('bcryptjs');
 const _ = require('underscore');
 
-const Usuario = require('/node training/node/07-restserver/models/usuario');
+const Usuario = require('../../models/usuario');
 
 app.get('/', function(req, res) {
     res.send('Hello World')
